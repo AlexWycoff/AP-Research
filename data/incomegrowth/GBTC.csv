@@ -1,0 +1,4 @@
+fillingDate,date,symbol,calendarYear,period,growthRevenue,growthCostOfRevenue,growthGrossProfit,growthGrossProfitRatio,growthResearchAndDevelopmentExpenses,growthGeneralAndAdministrativeExpenses,growthSellingAndMarketingExpenses,growthOtherExpenses,growthOperatingExpenses,growthCostAndExpenses,growthInterestExpense,growthDepreciationAndAmortization,growthEBITDA,growthEBITDARatio,growthOperatingIncome,growthOperatingIncomeRatio,growthTotalOtherIncomeExpensesNet,growthIncomeBeforeTax,growthIncomeBeforeTaxRatio,growthIncomeTaxExpense,growthNetIncome,growthNetIncomeRatio,growthEPS,growthEPSDiluted,growthWeightedAverageShsOut,growthWeightedAverageShsOutDil
+2024-02-23,2023-12-31,GBTC,2023,FY,0,0,0,0,0,0,0,0,0,0,0,-0.2651815217629166,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1
+2023-03-01,2022-12-31,GBTC,2022,FY,0,0,0,0,0,0,0,1,1,1,0,-0.0341269371570608,1,0,1,0,0,1,0,1,1,0,1,1,0,0
+2022-02-25,2021-12-31,GBTC,2021,FY,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

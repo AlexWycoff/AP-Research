@@ -1,0 +1,16 @@
+,metric,start date,pct correct
+0,balancegrowth,2020-12-01,0.32
+1,balancegrowth,2021-12-01,0.4
+2,balancegrowth,2022-12-01,0.72
+3,cashflowgrowth,2020-12-01,0.4
+4,cashflowgrowth,2021-12-01,0.16
+5,cashflowgrowth,2022-12-01,0.36
+6,incomegrowth,2020-12-01,0.24
+7,incomegrowth,2021-12-01,0.36
+8,incomegrowth,2022-12-01,0.52
+9,keymetrics,2020-12-01,0.56
+10,keymetrics,2021-12-01,0.48
+11,keymetrics,2022-12-01,0.68
+12,compiled,2020-12-01,0.4
+13,compiled,2021-12-01,0.32
+14,compiled,2022-12-01,0.72

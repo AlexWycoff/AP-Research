@@ -1,0 +1,5 @@
+fillingDate,date,symbol,calendarYear,period,growthRevenue,growthCostOfRevenue,growthGrossProfit,growthGrossProfitRatio,growthResearchAndDevelopmentExpenses,growthGeneralAndAdministrativeExpenses,growthSellingAndMarketingExpenses,growthOtherExpenses,growthOperatingExpenses,growthCostAndExpenses,growthInterestExpense,growthDepreciationAndAmortization,growthEBITDA,growthEBITDARatio,growthOperatingIncome,growthOperatingIncomeRatio,growthTotalOtherIncomeExpensesNet,growthIncomeBeforeTax,growthIncomeBeforeTaxRatio,growthIncomeTaxExpense,growthNetIncome,growthNetIncomeRatio,growthEPS,growthEPSDiluted,growthWeightedAverageShsOut,growthWeightedAverageShsOutDil
+2024-01-31,2024-01-31,RBRK,2024,FY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-4.58066043853995e-11,0.0014903129657228,0.0014903129657228,0,0
+2023-01-31,2023-01-31,RBRK,2023,FY,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,0,0,0,0,-0.2181044003034414,-0.2750997656299486,-0.2750997656299486,0,0
+2022-01-31,2022-01-31,RBRK,2022,FY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0787421864385188,-0.0917704011065007,-0.0917704011065007,0,0
+2021-01-31,2021-01-31,RBRK,2021,FY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,0
