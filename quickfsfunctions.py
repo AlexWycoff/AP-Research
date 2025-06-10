@@ -10,6 +10,8 @@ import requests
 
 import pickle
 from xgboost import XGBRegressor
+from lightgbm import LGBMRegressor
+from catboost import CatBoostRegressor
 import shap
 
 def add_days(date, days):
@@ -99,8 +101,11 @@ def train_ranking(model, startdate, num_stocks, years, metric):
         ylist[i] = len(ylist) - i - 1
     
     # Train and save model to data
-    model.fit(xlist, ylist)
-    pickle.dump(model, open("data/xgbmodel.pkl", "wb"))
+    if type(model) == LGBMRegressor:
+        model.fit(xlist, ylist, eval_metric="MAE")
+    else:
+        model.fit(xlist, ylist, verbose=False)
+    # pickle.dump(model, open("data/xgbmodel.pkl", "wb"))
     return model, xlist
 
 def train(model, startdate, num_stocks, years, metric):
@@ -120,7 +125,7 @@ def train(model, startdate, num_stocks, years, metric):
     
     # Train and save model to data
     model.fit(xlist, ylist)
-    pickle.dump(model, open("data/xgbmodel.pkl", "wb"))
+    # pickle.dump(model, open("data/xgbmodel.pkl", "wb"))
     return model, xlist
 
 def train_and_predict(model, startdate, num_stocks, years, metric):
